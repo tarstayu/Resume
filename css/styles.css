@@ -8,8 +8,16 @@ h1,h2,h3,h4,h5,h6,h7 {
 }
 
 p {
-  color: #8f8f8f;
-  font-size: 0.85rem
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.foot-col{
+  box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  border-radius: 30px;
+  margin: 0% 30% 8% 10%;
+  padding:10px;
+  text-align: center;
 }
 
 /* Title */
@@ -25,6 +33,16 @@ p {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
+}
+
+.zoom2 {
+  transition: transform 1s;
+}
+
+.zoom2:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
 }
 
 .card {
@@ -140,8 +158,9 @@ p {
 /* Testimonials */
 
 #testimonials {
+  padding: 7% 0px;
   text-align: center;
-  background-color: #ef8172;
+  background-color: #3F72AF;
   color: #fff;
 }
 
@@ -154,10 +173,11 @@ p {
 }
 
 .testimonial-image {
-  width: 20%;
-  border-radius: 100%;
+  border-radius: 3%;
+  width: 50%;
   margin: 20px;
 }
+
 
 
 
@@ -192,28 +212,33 @@ p {
   padding: 3% 2%;
 }
 
-/* CTA */
-
-#cta {
-  background-color: #FE3C72;
-  text-align: center;
-  padding: 7% 15%;
-  color: #fff;
-}
-
-.cta-text {
-  font-size: 3rem;
-}
 
 /* Footer */
 
 #footer {
-  padding: 3% 15%;
+  background-color: #F9F7F7;
+  padding: 100px;
   text-align: center;
 }
 
 .social-icon {
   margin: 20px 10px;
+}
+
+.text-c{
+  margin: auto;
+  display: inline-block;
+}
+
+.img-a{
+  margin: 3%;
+  width: 10%;
+}
+
+.text-a{
+  font-family: "Montserrat";
+  font-weight: 900;
+  display: inline-block;
 }
 
 @media (max-width : 1028px) {
